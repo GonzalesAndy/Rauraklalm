@@ -1,0 +1,7 @@
+# Old PHP pages -> new pages (Cloudflare Pages)
+/index.php      /                    301
+/chronik.php    /#geschichte         301
+/entdecken.php  /umgebung.html       301
+/hinfinden.php  /anreise.html        301
+/verweilen.php  /zimmer.html         301
+/impressum.php  /kontakt.html        301
