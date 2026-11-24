@@ -1,0 +1,331 @@
+{
+ "type": "FeatureCollection",
+ "home": {
+  "name": "Rauraklalm",
+  "lat": 47.8276,
+  "lon": 15.6922
+ },
+ "categories": {
+  "natur": {
+   "de": "Natur & Ausflug",
+   "en": "Nature & outings",
+   "color": "#2F5D46"
+  },
+  "sport": {
+   "de": "Sport & Freizeit",
+   "en": "Sport & leisure",
+   "color": "#2F5D7A"
+  },
+  "kultur": {
+   "de": "Kultur & Museen",
+   "en": "Culture & museums",
+   "color": "#B84E1C"
+  },
+  "ort": {
+   "de": "Gemeinde",
+   "en": "Municipality",
+   "color": "#6B5440"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7069,
+     47.8117
+    ]
+   },
+   "properties": {
+    "id": "schwarzau",
+    "n": 1,
+    "name": "Marktgemeinde Schwarzau im Gebirge",
+    "place_de": "Schwarzau im Gebirge",
+    "place_en": "Schwarzau im Gebirge",
+    "dist_km": null,
+    "cat": "ort",
+    "url": "https://www.schwarzau-gebirge.gv.at",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.745,
+     47.795
+    ]
+   },
+   "properties": {
+    "id": "falkenstein",
+    "n": 2,
+    "name": "Naturpark Falkenstein",
+    "place_de": "Schwarzau im Gebirge",
+    "place_en": "Schwarzau im Gebirge",
+    "dist_km": null,
+    "cat": "natur",
+    "url": "https://www.naturpark-falkenstein.at",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.728,
+     47.872
+    ]
+   },
+   "properties": {
+    "id": "furtnerlifte",
+    "n": 3,
+    "name": "Furtnerlifte",
+    "place_de": "Rohr im Gebirge",
+    "place_en": "Rohr im Gebirge",
+    "dist_km": 5,
+    "cat": "sport",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.646,
+     47.863
+    ]
+   },
+   "properties": {
+    "id": "kaltekuchl",
+    "n": 4,
+    "name": "Kalte Kuchl",
+    "place_de": "Mit Skilift und Badesee",
+    "place_en": "With ski lift and swimming lake",
+    "dist_km": 6,
+    "cat": "sport",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.829,
+     47.737
+    ]
+   },
+   "properties": {
+    "id": "wassermuseum",
+    "n": 5,
+    "name": "Wassermuseum",
+    "place_de": "Kaiserbrunn",
+    "place_en": "Kaiserbrunn",
+    "dist_km": 16,
+    "cat": "kultur",
+    "url": "https://www.wien.gv.at",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.567,
+     47.855
+    ]
+   },
+   "properties": {
+    "id": "nordisch",
+    "n": 6,
+    "name": "Nordisches Zentrum",
+    "place_de": "Sankt Aegyd am Neuwalde",
+    "place_en": "Sankt Aegyd am Neuwalde",
+    "dist_km": 21,
+    "cat": "sport",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.845,
+     47.696
+    ]
+   },
+   "properties": {
+    "id": "reichenau",
+    "n": 7,
+    "name": "Festspiele & Raxseilbahn",
+    "place_de": "Reichenau an der Rax",
+    "place_en": "Reichenau an der Rax",
+    "dist_km": 22,
+    "cat": "natur",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.888,
+     47.876
+    ]
+   },
+   "properties": {
+    "id": "gutenstein",
+    "n": 8,
+    "name": "Festspiele",
+    "place_de": "Gemeinde Gutenstein",
+    "place_en": "Gutenstein",
+    "dist_km": 25,
+    "cat": "kultur",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.53,
+     47.818
+    ]
+   },
+   "properties": {
+    "id": "kameltheater",
+    "n": 9,
+    "name": "Kameltheater",
+    "place_de": "Kernhof",
+    "place_en": "Kernhof",
+    "dist_km": 25,
+    "cat": "kultur",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.62,
+     47.905
+    ]
+   },
+   "properties": {
+    "id": "hohenberg",
+    "n": 10,
+    "name": "Kreativdorf & Kreativschule",
+    "place_de": "Marktgemeinde Hohenberg",
+    "place_en": "Hohenberg",
+    "dist_km": 26,
+    "cat": "kultur",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.937,
+     47.676
+    ]
+   },
+   "properties": {
+    "id": "gloggnitz",
+    "n": 11,
+    "name": "Hochzeitsschloß",
+    "place_de": "Stadtgemeinde Gloggnitz",
+    "place_en": "Gloggnitz",
+    "dist_km": 32,
+    "cat": "kultur",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.0,
+     47.85
+    ]
+   },
+   "properties": {
+    "id": "gauermann",
+    "n": 12,
+    "name": "Gauermannmuseum",
+    "place_de": "Gemeinde Miesbach",
+    "place_en": "Miesbach",
+    "dist_km": 39,
+    "cat": "kultur",
+    "url": "https://www.miesenbach.at",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.913,
+     47.788
+    ]
+   },
+   "properties": {
+    "id": "schneebergbahn",
+    "n": 13,
+    "name": "Schneebergbahn",
+    "place_de": "Wanderdorf Puchberg am Schneeberg",
+    "place_en": "Puchberg am Schneeberg",
+    "dist_km": 51,
+    "cat": "natur",
+    "url": "",
+    "image": null,
+    "text_de": "",
+    "text_en": ""
+   }
+  }
+ ]
+}
