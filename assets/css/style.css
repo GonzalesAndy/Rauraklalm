@@ -173,6 +173,47 @@ a:hover { color: var(--orange-dark); }
 figure { margin: 0; }
 figcaption { font-size: 15px; color: var(--muted); margin-top: 8px; }
 .photo { width: 100%; object-fit: cover; border-radius: var(--radius); background: #E9E0D2; }
+.image-zoomable { cursor: zoom-in; }
+.image-zoomable:hover { filter: brightness(.96); }
+
+.image-viewer {
+  position: fixed;
+  margin: auto;
+  padding: 48px 16px 16px;
+  width: fit-content;
+  max-width: 96vw;
+  max-height: 96vh;
+  overflow: auto;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 16px;
+  background: #201D1A;
+  color: #fff;
+}
+.image-viewer::backdrop { background: rgba(25,22,19,.88); }
+.image-viewer-image {
+  display: block;
+  width: auto;
+  max-width: calc(96vw - 32px);
+  max-height: 82vh;
+  object-fit: contain;
+  border-radius: 6px;
+}
+.image-viewer-caption { margin-top: 10px; text-align: center; }
+.image-viewer-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,.12);
+  color: #fff;
+  font: 28px/1 var(--font-body);
+  cursor: pointer;
+}
+.image-viewer-close:hover { background: rgba(255,255,255,.24); }
+.image-viewer-close:focus-visible { outline-color: #fff; }
 
 .grid { display: grid; gap: 20px; }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
